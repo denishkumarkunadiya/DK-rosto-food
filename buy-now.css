@@ -1,0 +1,63 @@
+body
+{
+  background: rgba(200, 54, 54, 0.5); 
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+    background: white;
+  }
+  
+  .price {
+    color: grey;
+    font-size: 22px;
+  }
+  
+  .card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  .card button:hover {
+    opacity: 0.7;
+  }
+  img:hover
+  {
+    opacity: 0.8;
+  }
+  #price
+  {
+    opacity: 0.9;
+    color: grey;
+  }
+
+  table,th,td
+  {
+    border: 2px solid black;
+    /* border-radius: 10px 10px 10px; */
+    border-collapse: collapse;
+    width: auto;
+  }
+  .table
+  {
+    background-color: rgba(85, 47, 139, 0.71); 
+    
+    margin-top: 15px;
+    width: 900px;
+    /* padding: 1500px; */
+    margin-left: auto; 
+    margin-right: auto;
+    color: white;
+  }
+  
